@@ -1,0 +1,16 @@
+{
+  "name": "formularioec2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npxtailwindcss -i ./static/css/input.css -o ./static/css/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}

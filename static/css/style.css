@@ -1,0 +1,32 @@
+/* Animación fade + slide */
+.fade-slide {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeSlide .6s ease forwards;
+}
+
+@keyframes fadeSlide {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animación bounce */
+.bounce-in {
+    animation: bounceIn .6s ease;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(.85);
+        opacity: 0;
+    }
+    80% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
